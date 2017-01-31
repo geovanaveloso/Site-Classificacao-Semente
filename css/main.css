@@ -1,0 +1,146 @@
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+    font-size: 13px;
+    color: #6a737b;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure, p {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+
+    -webkit-transition: all .3s ease-in 0s;
+    -moz-transition: all .3s ease-in 0s;
+    -ms-transition: all .3s ease-in 0s;
+    -o-transition: all .3s ease-in 0s;
+    transition: all .3s ease-in 0s;
+}
+
+iframe {
+    border: 0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #6CB670;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.btn-group{
+    vertical-align: text-bottom;
+}
+
+.centering {
+    margin:0 auto;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+span.color {
+    color: #0feb9e;
+}
+
+body > section,
+.footer {
+    padding: 70px 0;
+}
+
+.sec-title {}
+
+.sec-title h2 {
+    color: #0eb493;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sec-sub-title {
+    margin: 35px 0 45px;
+}
+
+.sec-sub-title p {
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #5b646e;
+}
+
+.devider {
+    margin-top: -20px;
+}
+
+.devider i {
+    color: #cccccc;
+}
+
+.devider:after {
+    content: "_________________";
+    color: #0eb493;
+    position: relative;
+}
+
+.devider:before {
+    right: 10px;
+}
+
+.error {
+    width:200px;
+    height:20px;
+    height:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+    bottom:10px;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    z-index: 999;
+}
+
+.radio{
+    margin-bottom: 16px;
+}
+
+.devider2{
+    margin-top: -12px;
+}
